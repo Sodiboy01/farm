@@ -1,0 +1,20 @@
+body {
+    margin:50px 0px; 
+    padding: 0px;
+    text-align: center;
+    align-content: center;
+    background-color:  rgb(255, 250, 236);
+}
+#logo {
+    width: 10%;
+}
+input {
+    padding: 5px;
+}
+button {
+    background-color: rgb(76, 179, 4);
+    color: white;
+}
+button:hover {
+    cursor: pointer;
+}
