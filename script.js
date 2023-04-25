@@ -19,6 +19,7 @@ if (navigator.geolocation) {
   
           // Log the state and country to the console
           console.log(`State: ${principalSubdivision}, Country: ${countryName}`);
+          form.state.value = principalSubdivision;
         })
         .catch(error => console.error(error));
     });
